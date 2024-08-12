@@ -6,7 +6,7 @@
         {
             "label": "Commit",
             "type": "shell",
-            "command": "git add -A && git commit -m \"U-$(Get-Date -UFormat +'%y%m%d%H%M%S')\"",
+            "command": "git add -A && git commit -m \"U-$(Get-Date -UFormat +'%y%m%d%H%M%S' -AsUTC)\"",
             "problemMatcher": []
         }
     ]

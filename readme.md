@@ -1,12 +1,12 @@
-# PHP Environment
+# PHP Environment for Laragon
 
 | PHP | XDebug |
 | --  | ------ |
-| `PHP 7.4 VS16 (64 bit)` | `v3.1.5` |
-| `PHP 8.0 VS16 (64 bit)` | `v3.1.5` |
-| `PHP 8.1 VS16 (64 bit)` | `v3.1.5` |
-| `PHP 8.2 VS16 (64 bit)` | `v3.2.0` |
-| `PHP 8.3 VS16 (64 bit)` | `v3.3.2` |
+| `PHP 7.4 VS16 (x64, TS)` | [`v3.1.6`](https://xdebug.org/download/historical#3_1_6) |
+| `PHP 8.0 VS16 (x64, TS)` | [`v3.1.5`](https://xdebug.org/download/historical#3_1_5) |
+| `PHP 8.1 VS16 (x64, TS)` | [`v3.3.2`](https://xdebug.org/download/historical#3_3_2) |
+| `PHP 8.2 VS16 (x64, TS)` | [`v3.2.0`](https://xdebug.org/download/historical#3_2_0) |
+| `PHP 8.3 VS16 (x64, TS)` | [`v3.3.2`](https://xdebug.org/download/historical#3_3_2) |
 
 
 ### PHP Extension
@@ -16,12 +16,12 @@
 
 - Optional
 
-  `gmp`, `pdo_sqlite`, `sockets`, `sodium`, `sqlite3`, [`xdebug`](https://xdebug.org/download), `zip`.
+  `gmp`, `pdo_sqlite`, `sockets`, `sodium`, `sqlite3`, [`xdebug`](https://xdebug.org/), `zip`.
 
 
 ### Quick Tutorial
 
-1. Download PHP TS (karena file `php8apache2_4.dll` hanya ada di TS).
+1. Download PHP TS (because the `php8apache2_4.dll` file only exists in TS).
 2. Edit file `etc\apache2\mod_php.conf`
 
     ```diff
@@ -35,12 +35,12 @@
     </IfModule>
     ```
 
-    Jika `LoadModule php8_module`, ganti ke `LoadModule php_module`.
+    If `LoadModule php8_module`, change to `LoadModule php_module`.
 
-3. Pastikan pada PHP 8.3 menggunakan `httpd-2.4.59-win64-VS17` atau versi yang lebih tinggi.
+3. Make sure that PHP 8.3 uses `httpd-2.4.59-win64-VS17` or higher.
 
 
 ### References
 - https://windows.php.net/download/
 - https://www.apachelounge.com/download/
-- https://xdebug.org/download
+- https://xdebug.org/download/historical
