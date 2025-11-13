@@ -7,6 +7,7 @@
 | `PHP 8.1 VS16 (x64, TS)` | [`v3.3.2`](https://xdebug.org/download/historical#3_3_2) |
 | `PHP 8.2 VS16 (x64, TS)` | [`v3.2.0`](https://xdebug.org/download/historical#3_2_0) |
 | `PHP 8.3 VS16 (x64, TS)` | [`v3.3.2`](https://xdebug.org/download/historical#3_3_2) |
+| `PHP 8.4 VS17 (x64, TS)` | [`v3.4.7`](https://xdebug.org/download/historical#3_4_7) |
 
 
 ### PHP Extension
